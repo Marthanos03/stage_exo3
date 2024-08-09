@@ -1,0 +1,459 @@
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/celebi "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/celebi "HTTP/1.1 200 OK"
+ERROR:__main__:TypeError: pkm_name should be a string
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='D:\\Anaconda\\App\\Library\\ssl\\cacert.pem'
+DEBUG:__main__:Requests started
+DEBUG:httpcore.connection:connect_tcp.started host='pokeapi.co' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001EB311D8D90>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x000001EB344E89E0> server_hostname='pokeapi.co' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001EB3451F510>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 11:40:38 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'7804'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"4ba42-9Asif1jKgpcZ8lBdiyP+0P2sL3U"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-orig-accept-language', b'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760036-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445622.323808,VS0,VE391'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'82282'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=Mb5pUHFXIDTDj%2FXalwFwJ3x2q4k0LaZPREOceb7ZQDI8VTqwdKq%2B390yBoiWfQx7tWPcxHZMDVLuTzFQqURhMatJNg0McsSa9hJuI8NCBCuXqNUdUHxfM%2FLpIYRyB8CgOt%2FqCKI6Ok0D"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b0778f51bf17832-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 11:40:38 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'5447'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"7ca6-j3/h/I6ncwKcGPwtO0t7DsNeYII"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760058-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445826.949473,VS0,VE313'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'81468'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=tZd1qHdrz5e33%2FE2b8yIdRVUY7%2FNBx%2F%2BW%2FnUkIjvqaX680WTb54aZns%2BNrjtDtCZVXf%2FagZN0may8KJ4kPEs06UWfM2DdgRxDGzf6WYBmgHTMjVw0r6%2B11WU%2BLThuN2k2QCgT%2BHT4IxF"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b0778f54c0b7832-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:__main__:Requests finished, status code 200 and 200
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='D:\\Anaconda\\App\\Library\\ssl\\cacert.pem'
+DEBUG:__main__:Requests started
+DEBUG:httpcore.connection:connect_tcp.started host='pokeapi.co' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001A97CEB8D90>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x000001A97F9889E0> server_hostname='pokeapi.co' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001A97F9BF510>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 11:40:53 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'7804'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"4ba42-9Asif1jKgpcZ8lBdiyP+0P2sL3U"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-orig-accept-language', b'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760036-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445622.323808,VS0,VE391'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'82297'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=lzpAR9qfpIQMpEtdQZ0KW7opzsVE1hTrN1OsfVY%2BadMlE0nHkXjkQvGfXMl2Whruqncq3A%2FmWnQGpCMW1t0KKMxpa6r822veu7n0nESIfF6DLJ5563y%2FQ7Oyv4Nbm6CpSYRae6nuBlNY"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b07794f4bbad64e-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 11:40:53 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'5447'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"7ca6-j3/h/I6ncwKcGPwtO0t7DsNeYII"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760058-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445826.949473,VS0,VE313'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'81483'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=I6Igc8UHAtI3nYA55Z9V8Fdmq4Qg8bWqSQWiLvL%2BuOxKTsjEG%2FDSByd2t6H1npjHKfkqUVFNiphkSZrneqJzGUdhbI6O2MLNIQtgdiRx2heBM%2BBHvXDAE5R8obDw6fzzSPqJbGugGuyx"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b07794f5bdfd64e-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:__main__:Requests finished, status code 200 and 200
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/tepig "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/tepig "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/tepig "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/tepig "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/tepig "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/tepig "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/tepig "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/tepig "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/tepig "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/tepig "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/tepig "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/tepig "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/tepig "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/tepig "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizar "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizar "HTTP/1.1 404 Not Found"
+ERROR:__main__:A request failed. The pokemon name may be incorrect, status code: 404
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizar "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizar "HTTP/1.1 404 Not Found"
+ERROR:__main__:A request failed. The pokemon name may be incorrect, status code: 404
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='D:\\Anaconda\\App\\Library\\ssl\\cacert.pem'
+DEBUG:__main__:Requests send
+DEBUG:httpcore.connection:connect_tcp.started host='pokeapi.co' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002BCB8648C90>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BCB8608DD0> server_hostname='pokeapi.co' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002BCB8648BD0>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:01:28 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'7804'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"4ba42-9Asif1jKgpcZ8lBdiyP+0P2sL3U"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-orig-accept-language', b'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760036-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445622.323808,VS0,VE391'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'559'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=071JTJy9ijoh8kM5JmQRRmEmFYvlnPpDfG%2BEIJFx1LhkVm9Rge0kwIlzR3dE%2F84V9GcWw%2FCPRYF3bPZWw34Gy3xtb8oD%2BT5BiBF9Wud8scwo7pMUNAks2A5tLVxLWMtzECJBY2eCtpea"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b07ef5a3cdd9eac-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:01:28 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'5447'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"7ca6-j3/h/I6ncwKcGPwtO0t7DsNeYII"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760058-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445826.949473,VS0,VE313'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'86318'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=x0%2FoOb%2BIjHzn8DnScTczWm0TV3RUJOL6NQ%2B0hKh3PseNKWHrZWJk2AiL9NrQ2KWVUYGmLDwXrE%2B7EY%2Bn8NVH%2BYRK8qkldxZqIEEe8GWMXgO45p%2FFsrMuFQka%2BnKa2isfnx8miomXlScf"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b07ef5a5cf69eac-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:__main__:Requests received, status code 200 and 200
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='D:\\Anaconda\\App\\Library\\ssl\\cacert.pem'
+DEBUG:__main__:Requests send
+DEBUG:httpcore.connection:connect_tcp.started host='pokeapi.co' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000024E513FD250>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x0000024E513BCE60> server_hostname='pokeapi.co' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000024E513FD190>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:17:05 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'7804'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"4ba42-9Asif1jKgpcZ8lBdiyP+0P2sL3U"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-orig-accept-language', b'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760036-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445622.323808,VS0,VE391'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'1496'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=MZTHNdE2p08e3YBvZ5fWtIM8SOJGLoMdx7jUEhqhgcdf2XXmSGMK6qtUEVSMFSlZF18cJ74hrJhfJSBKreIa30gqyw61DijWYr%2BcMnVTYmeaUKN6EeQuuMoc9Yt1U9JY%2Bt0jZnZE%2BFhB"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b08063ffc616f9f-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:17:06 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'5447'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"7ca6-j3/h/I6ncwKcGPwtO0t7DsNeYII"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760058-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445826.949473,VS0,VE313'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=L1zN9257Cbct6zE%2B%2BX0rnsf01i1cus5Z0IdCXIZZp2KuPZT0WCW%2B%2FZvVdc2OS%2Bor9FUzchrim690%2BKzSbqzAak%2FTOWKgUhEzvR%2B7qIjEU417G7rvWnRQmQVnOLaeZbFSEe3QTMcN%2BEVF"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b0806400c806f9f-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:__main__:Requests received, status code 200 and 200
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='D:\\Anaconda\\App\\Library\\ssl\\cacert.pem'
+DEBUG:__main__:Requests send
+DEBUG:httpcore.connection:connect_tcp.started host='pokeapi.co' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002013F46D210>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x000002013F428E60> server_hostname='pokeapi.co' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002013F46D150>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:22:11 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'7804'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"4ba42-9Asif1jKgpcZ8lBdiyP+0P2sL3U"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-orig-accept-language', b'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760036-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445622.323808,VS0,VE391'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'1802'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=uusBjOvaTqmFs52GqL%2BBthBcvoZa7ckwiiGVjNRd91VJozjqiFipB2v7MIQdNCRkXsmuoCeZHdSDazjcWzxtX9zyv4ablng%2BrAHXb2n9YD1bqO%2Bn8wGt4cs2a%2BqPyqcPlRQJGiNH8VQP"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b080db7bf9b2a79-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:22:11 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'5447'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"7ca6-j3/h/I6ncwKcGPwtO0t7DsNeYII"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760058-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445826.949473,VS0,VE313'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'305'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=oX5lCxlYP%2Fb5lOW5al1hPd9BRYfFm5NOMAJK6MzEQYmrHJRKyoKZs6N%2F11gw7wyFG6owa13D7qv1t%2Ben%2F5Ryc5odJR2i6rg3ckFWsAyRkpUcRyfDMi3fhjSrDMSoBCSCtmBzLhIsAmzy"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b080db7dfbb2a79-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:__main__:Requests received, status code 200 and 200
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='D:\\Anaconda\\App\\Library\\ssl\\cacert.pem'
+DEBUG:__main__:Requests send
+DEBUG:httpcore.connection:connect_tcp.started host='pokeapi.co' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028715E0D2D0>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x0000028715DC8E60> server_hostname='pokeapi.co' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028715E0D210>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:22:29 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'7804'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"4ba42-9Asif1jKgpcZ8lBdiyP+0P2sL3U"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-orig-accept-language', b'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760036-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445622.323808,VS0,VE391'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'1820'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=Tcl9IxTlEvsQpL9Pex8WgwmG1%2BTTbC3xCPFR5yy3F0u0MRTNNlB%2BVDmqAriTPc53z2JSv0KNVr8FFopeZY%2BAIZ7OztmsW8bJKckG95XlZwRdYo36VC4FHqyeM2qdzJSmSnsDnbeAWcql"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b080e283c12702c-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:22:29 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'5447'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"7ca6-j3/h/I6ncwKcGPwtO0t7DsNeYII"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760058-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445826.949473,VS0,VE313'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'323'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=qzzRCaVRWGTz7fVvmH%2FAb6Yuz1KbkKX75MSaUxv%2For77172WUBqw2jFuRnt%2FOrHXjwQtJPP44IshL31iE%2BIitL0h82hw7jGr7%2FCdy2pYMQzWMlGGhitxigof77VP7VeSlgZFIBR43zMi"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b080e285c2c702c-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:__main__:Requests received, status code 200 and 200
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='D:\\Anaconda\\App\\Library\\ssl\\cacert.pem'
+DEBUG:__main__:Requests send
+DEBUG:httpcore.connection:connect_tcp.started host='pokeapi.co' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002002741D2D0>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x00000200273D8E60> server_hostname='pokeapi.co' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002002741D210>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:22:50 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'7804'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"4ba42-9Asif1jKgpcZ8lBdiyP+0P2sL3U"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-orig-accept-language', b'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760036-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445622.323808,VS0,VE391'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'1841'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=rbZ%2Betoj6qifDxNEI6XllLZPa%2B4ws9WeyHWoi5OGBanGDgdvUpM18RsL50yTElxmg09OjbJNO%2FeKf30w26NY9FvuLczLHSId3GQtS5e7HdG3dDkuZUj2708BWpXt0fzGIt6hLTOLLd5J"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b080eab1e0a6f27-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:22:50 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'5447'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"7ca6-j3/h/I6ncwKcGPwtO0t7DsNeYII"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760058-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445826.949473,VS0,VE313'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'344'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=jC4JSEN1CoCwQt%2BBvarfyPOw5CHJhLT82LExAXZ%2Fbg780IZYwJEfP62MJbCqFIevfF2yWuUwRu0dtQFnSuzTbiuvm3%2FSJCp7TYgAvgykrvbRW3HS5FWKts8ff2NAvmodPWYq6A0jVqjA"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b080eab3e276f27-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:__main__:Requests received, status code 200 and 200
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='D:\\Anaconda\\App\\Library\\ssl\\cacert.pem'
+DEBUG:__main__:Requests send
+DEBUG:httpcore.connection:connect_tcp.started host='pokeapi.co' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002B88C0DD210>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x000002B88C098E60> server_hostname='pokeapi.co' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002B88C0DD150>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:23:07 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'7804'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"4ba42-9Asif1jKgpcZ8lBdiyP+0P2sL3U"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-orig-accept-language', b'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760036-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445622.323808,VS0,VE391'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'1858'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=r450%2FRl0JeBNQIwc10BwgW1vj7ujSeb5%2Bv2q%2Bg%2FWo5AUpksCgmrbw4A61jS1TYSKoJASyZx9loeX2uq%2BJ8Gwt%2BV9xnAYxjyo994DNqnmzpbfVFjetYy64cPw0FP81MnvmsX%2FA0GMO948"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b080f1699102a33-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:23:07 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'5447'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"7ca6-j3/h/I6ncwKcGPwtO0t7DsNeYII"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760058-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445826.949473,VS0,VE313'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'361'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=E9CNEhHd%2Fr6Olzje30JU0Z%2BH59Yoq%2F%2F6KYOAWec8FUI%2Fb4aoFYL7%2FDqt%2FHQB27ISkFypgG4%2FyuCni6AuXe3kRwNKkGHoiP1hh7YkILWRu7vGoojot1JSda%2BNhMydG%2B4s4H7qEQ34Hf97"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b080f16a9282a33-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:__main__:Requests received, status code 200 and 200
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='D:\\Anaconda\\App\\Library\\ssl\\cacert.pem'
+DEBUG:__main__:Requests send
+DEBUG:httpcore.connection:connect_tcp.started host='pokeapi.co' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025C000689D0>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x0000025C03298E60> server_hostname='pokeapi.co' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000025C032DD090>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:23:48 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'7804'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"4ba42-9Asif1jKgpcZ8lBdiyP+0P2sL3U"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-orig-accept-language', b'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760036-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445622.323808,VS0,VE391'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'1899'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=RFK4y2Qn%2F01odox0l60guWzw7l4Bnqc7tfez8FhuniOy%2B9biURHsa1jNazNG36EN%2BYIwUFdiqMKWIXNF5bihi%2FCsXC9la%2FlcVweHgWRfW1e1msNqoWv0hEsQpq1ovzxdu%2BQCSBgs%2BohA"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b08101598f29e3f-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:23:48 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'5447'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"7ca6-j3/h/I6ncwKcGPwtO0t7DsNeYII"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760058-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445826.949473,VS0,VE313'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'402'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=d3EwSUfqkBUOuDic0z%2Bfoya0WGD59y%2BB%2FQVqNvlljoQxv63xFc6gMhshXK8DP82XgN9vT5%2FUHjZM%2BIB5grOi5koN49RMC7H4LJKP5FcRIhRIqNydm0Tvl5lCl1Gf%2BPu3LXiNPt5kn5HL"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b081015b9079e3f-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:__main__:Requests received, status code 200 and 200
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='D:\\Anaconda\\App\\Library\\ssl\\cacert.pem'
+DEBUG:__main__:Requests send
+DEBUG:httpcore.connection:connect_tcp.started host='pokeapi.co' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DC60FAC650>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x000001DC61C38E60> server_hostname='pokeapi.co' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DC61C7D550>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:24:47 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'7804'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"4ba42-9Asif1jKgpcZ8lBdiyP+0P2sL3U"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-orig-accept-language', b'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760036-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445622.323808,VS0,VE391'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'1958'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=duI9GalLuWhc82DZ%2BjURKleue0ZNcZ3jjwcWCne3SBqIUhhzL4tlOoMY%2B%2BJKt6oGuo278D%2BNBHKLehCyPNtXLlGJgY1QKIcHYp0UH88eNO%2FgvGOq5LmhsaEKeQ4tNVRizV5%2FR3et4aWz"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b0811855e42f154-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:24:47 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'5447'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"7ca6-j3/h/I6ncwKcGPwtO0t7DsNeYII"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760058-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445826.949473,VS0,VE313'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'461'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=flIP2GxRWchz39OhMevUbKZM5NREhEDaY1umB5ug8NRilqDYOpx1n61XUi3d9DibNNBM4r%2BFB43lWy3HnYTDWe5m6iJSdMfUN9QDyvHZZ0YIp%2FD00uhOWmvBBTgcrFzotKLBsrdB1O%2BP"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b0811857e65f154-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:__main__:Requests received, status code 200 and 200
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='D:\\Anaconda\\App\\Library\\ssl\\cacert.pem'
+DEBUG:__main__:Requests send
+DEBUG:httpcore.connection:connect_tcp.started host='pokeapi.co' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000239627BC650>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x0000023963448E60> server_hostname='pokeapi.co' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002396348CB10>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:25:30 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'7804'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"4ba42-9Asif1jKgpcZ8lBdiyP+0P2sL3U"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-orig-accept-language', b'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760036-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445622.323808,VS0,VE391'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'2001'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=eOwXrNAoSljlNiyL7jD%2Fy0zTnTNmTggDwiOy8GW0WQZLiKodvzhe5PqfSVRv85WuzckWXqVw22PY4Ul0xGehdnyWNwhi28v4Xchlfvj3%2F3Kb070BGYzDHw2P4YHz%2Bs9a0c3Dy2xL8ja%2B"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b0812926f59bb5d-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:25:30 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'5447'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"7ca6-j3/h/I6ncwKcGPwtO0t7DsNeYII"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760058-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445826.949473,VS0,VE313'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'504'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=suhLSC3n2FW%2FxOMrNaLuzuaHVqsCKc3VIql82x0u1Xf6qO1Zztxqu9GFzRKIKONOOdB9TG36qW9lm5ctbfmPuDdmB4v7%2FCdqKKvBuCKhOWXeSFcvoMJNYxNdjAdq94s4Tj3PcfbM9Gs9"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b0812928f76bb5d-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:__main__:Requests received, status code 200 and 200
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='D:\\Anaconda\\App\\Library\\ssl\\cacert.pem'
+DEBUG:__main__:Requests send
+DEBUG:httpcore.connection:connect_tcp.started host='pokeapi.co' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E5EC3FC650>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x000001E5ED088E60> server_hostname='pokeapi.co' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E5ED0CD3D0>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:27:41 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'7804'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"4ba42-9Asif1jKgpcZ8lBdiyP+0P2sL3U"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-orig-accept-language', b'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760036-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445622.323808,VS0,VE391'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'2132'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=v%2FGzFZvmCRfPnzSntYMISQFMK0BjwHkj5rMw3GkYB8X7gAd18tX3FkHZzWhrztDX%2BRj993iXvPe6kAOFCxyyXFcFZlAZ7A4QHo7JTn6bhPfy0NlFy9A7sgMtyuFB46P9IRkViMTxaXbj"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b0815c64cc19eb5-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:27:41 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'5447'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"7ca6-j3/h/I6ncwKcGPwtO0t7DsNeYII"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760058-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445826.949473,VS0,VE313'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'635'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=6flGm%2Fi9lD%2BZtdX%2BPg5pBaS4Xp1%2B%2B%2Fb%2Bn2yvBemo%2FsTbPbGglX687L%2BBs4uX1t7PYuSJhi7SYyOFI2i2LsnYtS6nl3gMjWNL3wbv00ExYhuvVcY6%2FVbILymNyC2KQ9GmLAuYW2oeAkIq"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b0815c66cd79eb5-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:__main__:Requests received, status code 200 and 200
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='D:\\Anaconda\\App\\Library\\ssl\\cacert.pem'
+DEBUG:__main__:Requests send
+DEBUG:httpcore.connection:connect_tcp.started host='pokeapi.co' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000019E57B831D0>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x0000019E57B48E60> server_hostname='pokeapi.co' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000019E57B8D490>
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:28:37 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'7804'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"4ba42-9Asif1jKgpcZ8lBdiyP+0P2sL3U"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-orig-accept-language', b'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760036-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445622.323808,VS0,VE391'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'2188'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=mjWvAFxW0%2F8lU1HyUJ6gyUkZMWbr4TPOj%2BtYXo6LxhUvCDlyfnx%2BVlUPGS8eMLWOmowFexzM1daEOlYwG8Qe%2Bwc7e2WrwIaQ%2BpIhTgrtoStUIyR%2B78JoVImTOWoEd6p5krjCmWXNoCkz"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b081720ecdabb57-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 09 Aug 2024 13:28:37 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'5447'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'public, max-age=86400, s-maxage=86400'), (b'Content-Encoding', b'gzip'), (b'etag', b'W/"7ca6-j3/h/I6ncwKcGPwtO0t7DsNeYII"'), (b'strict-transport-security', b'max-age=31556926'), (b'x-country-code', b'US'), (b'x-powered-by', b'Express'), (b'x-served-by', b'cache-mia-kmia1760058-MIA'), (b'x-cache', b'MISS'), (b'x-cache-hits', b'0'), (b'x-timer', b'S1720445826.949473,VS0,VE313'), (b'vary', b'Origin, Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'HIT'), (b'Age', b'691'), (b'Accept-Ranges', b'bytes'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=cYxiBdMNZlV7AFXB4eov7%2BgGqtg9ZEGmpsYOq2HyogQmnG9jXi8faK0F37VmZv0BZrI1mViTXOygGQiXvW4qedjlP%2B4cjqHJ%2BEXKw%2BuVCwJ89Gl74vfalxCTjZhpX1degF6%2BOONB%2Faay"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Access-Control-Allow-Origin', b'*'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8b0817210cf2bb57-CDG')])
+INFO:httpx:HTTP Request: GET https://pokeapi.co/api/v2/pokemon-species/charizard "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:__main__:Requests received, status code 200 and 200
+DEBUG:httpcore.connection:close.started
+DEBUG:httpcore.connection:close.complete
